@@ -1,0 +1,125 @@
+/* Trabalhando com a responsividade do site, usando medias keries */
+@media screen and (max-width: 900px) {
+    header .menu-desktop, header .btn-contacto {
+        display: none;
+    }
+
+    /* Estilo do bottão do menu mobile */
+        header .btn-menu-mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    /* Responsivo da Secção Hero */
+    .hero-site .txt-hero h1 {
+        font-size: 2.6em;
+        line-height: 45px;
+    }
+
+    .hero-site .txt-hero p {
+        font-size: 14px;
+    }
+
+    .hero-site .txt-hero p span {
+        display: inline;
+    }
+
+    .hero-site button {
+        font-size: 18px;
+    }
+
+    /* RESPONSIVIDADE DA SECÇÃO DE VANTAGENS */
+    .vantagens .itens-container {
+       flex-direction: column;
+    }
+
+    .vantagens .itens-container .img-itens img {
+        width: 100%;
+    }
+
+    .vantagens .itens-container.txt-itens p {
+        margin-bottom: 20px;
+    }
+
+    .vantagens .itens-container .item-1 {
+        order: 1;
+    }
+    
+    .vantagens .itens-container .item-2 {
+        order: 0;
+    }
+
+    /* RESPONSIVIDADE ds Secção de contactos */
+    .txt-contato, .icons-contato {
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .contato .txt-contato P {
+        margin-bottom: 20px;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+    }
+
+    /* Responsividade da secção dos Hóteis */
+    .hoteis h3 {
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .hoteis p {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    /* Estilizand a classe cmo fUNCIONA */
+    .txt-funciona, .instrucoes {
+        display: inline-block;
+
+        width: 50%;
+        margin-right: -4px;
+        /* propriedade para deixar o título no top */
+        vertical-align: top;
+    }
+
+    /* estulizando o texto como funciona para ficae fixo */
+    .txt-funciona, .instrucoes {
+        display: block;
+        width: 100%;
+    }
+    
+
+    .como-funciona .txt-funciona {
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Responsividade da parte do footer */
+    footer .middle-footer a {
+        margin: 15px 0;
+        display: block;
+    }
+
+    footer .bottom-footer p {
+        font-size: 14px;
+    }
+
+
+}

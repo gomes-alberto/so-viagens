@@ -1,0 +1,356 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link do css -->
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\reponsive.css" media="screen">
+
+    <!-- link do Java Script -->
+    <script src="js/menu.js" defer></script>
+    <script src="js/btn-menu-mob.js" defer></script>
+
+    <title>website responsivo</title>
+</head>
+<body>
+    <!-- cabeçalho do site -->
+    <header id="header">
+        <!-- interface, classe para delimitar o site -->
+        <div class="interface">
+            <!-- logo -->
+            <section class="logo">
+                <!-- logo branca -->
+                <img class="logo-branca" src="images/logotipo.png" alt="Logotipo do site">
+                <!-- logo preta -->
+                <img class="logo-preta" src="images/logotipo_p.png" alt="Logotipo do site">
+            </section>
+
+            <!-- secção de navegação do menu Desktop -->
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#">início</a></li>
+                        <li><a href="#">destino</a></li>
+                        <li><a href="#">hotéis</a></li>
+                        <li><a href="#">passagens</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- botão de cntacto -->
+            <section class="btn-contacto">
+                <a href="#">
+                    <button>Contacto</button>
+                </a>
+            </section>
+
+            <!-- Botão do menu mobile -->
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menumob-1"></div>
+                <div class="line-menumob-2"></div>
+            </div>
+
+            <!-- secção de navegação do navegação do menu Mobile -->
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#">início</a></li>
+                        <li><a href="#">destino</a></li>
+                        <li><a href="#">hotéis</a></li>
+                        <li><a href="#">passagens</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+    </header>
+
+    <!-- secção de apresenração do site -->
+    <section class="hero-site">
+        <!-- interface -->
+        <div class="interface">
+            <!-- textos do site -->
+            <div class="txt-hero">
+                <h1>Descubra um <span>novo mundo</span></h1>
+                <p>
+                    Encontre destinos que ficarão para sempre em sua memória
+                    <span>com um orçamento que cabe no seu bolso</span>
+                </p>
+                <!-- botão -->
+                <a href="#">
+                    <button>Quero conhecer</button>
+                </a>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- secção viagens (segunda secção) -->
+    <section class="vantagens">
+        <!-- interface para delimitar o site -->
+        <div class="interface">
+
+            <!-- criando uma seção de com a tag Article onde ficara todos os elementos ou itens da Secção -->
+           
+            <!-- (1) Primeiro Article da Secção -->
+            <article class="itens-container">
+
+                <!-- criando a secção dos textos -->
+                <div class="txt-itens">
+                    <h3> <span>Viaje</span> com <br> conforto</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Itaque repellat explicabo odit, optio modi vel.
+                        amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <!-- criando a div onde tera as imagens -->
+                <div class="img-itens">
+                    <img src="images/aviao.png" alt="">
+                </div>
+
+            </article>
+
+            <!-- (2) Segundo Article da Secção -->
+            <article class="itens-container">
+
+                <!-- criando a div onde tera as imagens -->
+                <div class="img-itens item-1">
+                    <img src="images/carro.png" alt="">
+                </div>
+
+                <!-- criando a secção dos textos -->
+                <div class="txt-itens item-2">
+                    <h3> <span>Os</span> melhores <br>destinos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Itaque repellat explicabo odit, optio modi vel.
+                        amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+            </article>
+
+            <!-- (3) Terceiro Article da Secção -->
+            <article class="itens-container">
+
+                <!-- criando a secção dos textos -->
+                <div class="txt-itens">
+                    <h3> <span>Os</span> melhores <br> hotéis</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Itaque repellat explicabo odit, optio modi vel.
+                        amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <!-- criando a div onde tera as imagens -->
+                <div class="img-itens">
+                    <img src="images/hoteis.png" alt="">
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Secção de contactos -->
+    <section class="contato">
+        <!-- interface para delimitar o site -->
+        <div class="interface">
+
+            <!-- secção do texto dos contactos -->
+            <article class="txt-contato">
+                <h3>Fale agora com a <span>nossa equipe</span> </h3>
+                <p>
+                    E solicite um orçamento que cabe no seu bolso
+                </p>
+            </article>
+
+            <!-- secção do article onde ficará os icones de contacto -->
+            <article class="icons-contato">
+                <!-- primeiro botão -->
+                <a href="#">
+                    <button> <img src="images/whatsapp-1.png" alt=""> <p>Chamar no whatsApp</p> </button>
+                </a>
+
+                <!-- segundo botão -->
+                <a href="#">
+                    <button> <img src="images/email-1.png" alt=""> <p>Enviar e-mail</p> </button>
+                </a>
+
+                <!-- terceiro botão -->
+                <a href="#">
+                    <button> <img src="images/phone-1.png" alt=""> <p>Ligar</p> </button>
+                </a>
+
+                <!-- quarto botão -->
+                <a href="#">
+                    <button> <img src="images/form-1.png" alt=""> <p>Formulário</p> </button>
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Secção de HOTEIS com o efeit paralax -->
+    <section class="hoteis">
+        <!-- div para delimitar o site -->
+        <div class="interface">
+
+            <h3>Hospedagens? <span>Deixa com a gente</span></h3>
+            <p>
+                Os melhores hóteis e pousadas para o 
+                máximo de conforto para você e sua família
+            </p>
+
+            <!-- botão -->
+            <a href="#">
+                <button>Conheça os hóteis</button>
+            </a>
+        </div>
+        
+        <!-- Div overlay para o egeito escuro na imagem -->
+        <div class="overlay"></div>
+    </section>
+
+    <!-- Secção como Funciona -->
+    <section class="como-funciona">
+        <!-- div para delimitar o site -->
+        <div class="interface">
+
+            <!-- texto da div como funciona -->
+            <div class="txt-funciona">
+                <h3>Como <span>funciona</span></h3>
+            </div>
+
+            <!-- div das instruções -->
+            <div class="instrucoes">
+
+                <!-- box da instrução -->
+
+                <!-- Instrução Número 1 -->
+                <article class="instru-box">
+                    <!-- div das imagens dentro das instruções -->
+                    <div class="img-instru-box">
+                        <img src="images/atendimento-ao-cliente.png" alt="">
+                    </div>
+
+                    <!-- div dos textos dentro das instruções -->
+                    <div class="txt-instru-box">
+                        <h4>Você <span>fala com a gente</span></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aliquam cupiditate dolor itaque autem quisquam, officia.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Instrução Número 2 -->
+                <article class="instru-box">
+                    <!-- div das imagens dentro das instruções -->
+                    <div class="img-instru-box">
+                        <img src="images/planejamento.png" alt="">
+                    </div>
+
+                    <!-- div dos textos dentro das instruções -->
+                    <div class="txt-instru-box">
+                        <h4>A gente <span>planeja</span></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aliquam cupiditate dolor itaque autem quisquam, officia.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Instrução Número 3 -->
+                <article class="instru-box">
+                    <!-- div das imagens dentro das instruções -->
+                    <div class="img-instru-box">
+                        <img src="images/viagem.png" alt="">
+                    </div>
+
+                    <!-- div dos textos dentro das instruções -->
+                    <div class="txt-instru-box">
+                        <h4>Partiu <span>viajar</span></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aliquam cupiditate dolor itaque autem quisquam, officia.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Secção de 2 sem nenhuma alteração contactos -->
+    <section class="contato">
+        <!-- interface para delimitar o site -->
+        <div class="interface">
+
+            <!-- secção do texto dos contactos -->
+            <article class="txt-contato">
+                <h3>Fale agora com a <span>nossa equipe</span> </h3>
+                <p>
+                    E solicite um orçamento que cabe no seu bolso
+                </p>
+            </article>
+
+            <!-- secção do article onde ficará os icones de contacto -->
+            <article class="icons-contato">
+                <!-- primeiro botão -->
+                <a href="#">
+                    <button> <img src="images/whatsapp-1.png" alt=""> <p>Chamar no whatsApp</p> </button>
+                </a>
+
+                <!-- segundo botão -->
+                <a href="#">
+                    <button> <img src="images/email-1.png" alt=""> <p>Enviar e-mail</p> </button>
+                </a>
+
+                <!-- terceiro botão -->
+                <a href="#">
+                    <button> <img src="images/phone-1.png" alt=""> <p>Ligar</p> </button>
+                </a>
+
+                <!-- quarto botão -->
+                <a href="#">
+                    <button> <img src="images/form-1.png" alt=""> <p>Formulário</p> </button>
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Parte ou secção do rodapé -->
+    <footer>
+        <div class="interface">
+            <section class="top-footer">
+                <!-- botões -->
+                <a href="#"><button><img src="images/instagram.png" alt=""></button></a>
+                <a href="#"><button><img src="images/facebook.png" alt=""></button></a>
+                <a href="#"><button><img src="images/tiktok.png" alt=""></button></a>
+            </section>
+
+            <!-- secção dos dizeres -->
+            <section class="middle-footer">
+                <a href="#">Suporte</a>
+                <a href="#">Informações</a>
+                <a href="#">Marketing</a>
+            </section>
+
+            <section class="bottom-footer">
+                <p>TravelsGo 2024 &copy; Todos os direitos reservados</p>
+            </section>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
