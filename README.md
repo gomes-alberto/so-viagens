@@ -37,7 +37,7 @@ A página foi projetada para oferecer uma **experiência agradável** em qualque
 
 ## 📂 Como Visualizar
 
-Acesse o projeto online clicando  [aqui](https://gomes-alberto.github.io/so-viagens/)  
+<!-- Acesse o projeto online clicando  [aqui](URL_DO_SEU_PROJETO)   -->
 Clone este repositório no seu computador:
 
 ```bash
