@@ -37,11 +37,8 @@ A página foi projetada para oferecer uma **experiência agradável** em qualque
 
 ## 📂 Como Visualizar
 
-### Feito com 💙 por Gomes Alberto
-
 Acesse o projeto online clicando  [aqui](https://gomes-alberto.github.io/so-viagens/)  
-Clone este repositório no seu computador:
 
-```bash
-git clone https://github.com/gomes-alberto/so-viagens
+---
 
+### Feito com 💙 por Gomes Alberto
