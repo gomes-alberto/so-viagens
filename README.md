@@ -41,4 +41,4 @@ Acesse o projeto online clicando  [aqui](https://gomes-alberto.github.io/so-viag
 
 ---
 
-### Feito com 💙 por Gomes Alberto
+Feito com 💙 por **Gomes Alberto**
